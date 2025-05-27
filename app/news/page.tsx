@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { client } from "@/libs/microcms";
 
+export const revalidate = 60; //
+
 type News = {
   id: string;
   title: string;
